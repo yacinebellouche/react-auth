@@ -1,7 +1,7 @@
-import { Form, Link, useSearchParams, useActionData } from "react-router-dom";
+import { Form, Link, useSearchParams, useActionData,  } from "react-router-dom";
 
 import classes from "./AuthForm.module.css";
-
+// streak
 function AuthForm() {
   //we can allso acces to a function that allows to change the searchParams (setSearchParams)
   const [searchParams] = useSearchParams();
